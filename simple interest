@@ -1,0 +1,5 @@
+pa = float(input("Enter Principle Amount : "))
+rate = float(input("Enter percentage rate : "))
+time = float(input("Enter Time period :"))
+SI = pa*rate*time/100
+print("The Simple Interest is : ",SI)
